@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -25,7 +25,6 @@ namespace SalesWebMvc.Controllers
         public IActionResult About()
         {
            
-
             return View();
         }
         public IActionResult Privacy()
