@@ -22,9 +22,16 @@ namespace SalesWebMvc.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+           
 
+            return View();
+        }
         public IActionResult Privacy()
         {
+            
+            ViewData["email"] = "vini00@gmail.com";
             return View();
         }
 
